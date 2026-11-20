@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Reso-Noise · Fourier analysis and noise reduction</title>
+  <meta name="description" content="Identify and reduce residential noise with Fourier-transform analysis." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='2' y='13' width='4.4' height='9' rx='2.2' fill='%23b7a4cc'/%3E%3Crect x='8.6' y='7' width='4.4' height='21' rx='2.2' fill='%234b1f52'/%3E%3Crect x='15.2' y='3' width='4.4' height='26' rx='2.2' fill='%236a3573'/%3E%3Crect x='21.8' y='10' width='4.4' height='14' rx='2.2' fill='%238ca68c'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/css/app.css" />
+</head>
+<body>
+  <header class="topbar" id="topbar"></header>
+  <main>
+    <section id="view-studio" aria-label="Studio"></section>
+    <section id="view-library" aria-label="Library" hidden></section>
+    <section id="view-method" aria-label="Method" hidden></section>
+  </main>
+  <div id="toasts" aria-live="polite"></div>
+  <noscript><p style="padding:24px">Reso-Noise needs JavaScript to draw its charts and play audio.</p></noscript>
+  <script type="module" src="/static/js/main.js"></script>
+</body>
+</html>

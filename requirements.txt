@@ -1,0 +1,5 @@
+numpy>=1.24
+scipy>=1.10
+Flask>=2.3
+soundfile>=0.12      # optional but recommended: decodes FLAC / OGG / MP3 / AIFF without ffmpeg
+waitress>=2.1        # optional production server (falls back to Flask's built-in server)
